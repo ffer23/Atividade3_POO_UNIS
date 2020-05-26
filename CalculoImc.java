@@ -26,10 +26,10 @@ public class CalculoImc {
         }else if ((calcImc > 17) && (calcImc < 18.49)){
             JOptionPane.showMessageDialog(null, String.format("O seu IMC foi: %.2f", 
                     calcImc) + "\n Situação: Abaixo do peso");        
-        } else if ((calcImc > 18.50) && (calcImc < 24.99)){
+        }else if ((calcImc > 18.50) && (calcImc < 24.99)){
             JOptionPane.showMessageDialog(null, String.format("O seu IMC foi: %.2f", 
                     calcImc) + "\n Situação: Peso normal"); 
-        } else if ((calcImc > 25) && (calcImc < 29.99)){
+        }else if ((calcImc > 25) && (calcImc < 29.99)){
             JOptionPane.showMessageDialog(null, String.format("O seu IMC foi: %.2f", 
                     calcImc) + "\n Situação: Acima do peso");
         }else if ((calcImc > 30) && (calcImc < 34.99)){
